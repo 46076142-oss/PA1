@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico - Desarrollo Web</title>
+    <!-- Vinculación del archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado principal con ID genérico -->
+    <header id="main-header">
+        <h1>Mi Portafolio</h1>
+        <p class="subtitle">Creado con <strong>HTML5</strong> y <em>CSS3</em></p>
+        
+        <!-- Menú de navegación con enlace interno (ancla) -->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container">
+        
+        <!-- Sección de Inicio -->
+        <section id="inicio" class="card">
+            <h2>Bienvenido a mi perfil</h2>
+            <p>Mi nombre es Mijail Lenin Huanca huirse, soy natural de Cusco, en la actualidad tengo una carrera tecnica
+                como analista de sistemas, trabajo independientemente, tengo una familia hermosa con dos hijos y mi objetivo
+                es culminar mi carrera universitaria </p>
+        </section>
+
+        <!-- Sección de Listas (Características) -->
+        <section id="caracteristicas" class="card">
+            <h2>Conocimientos en software</h2>
+            
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>Office a nivel profesional</li>
+                <li>Diseño grafico</li>
+                <li>diseño web a nivel basico</li>
+            </ul>
+            <h2>Conocimientos en hardware</h2>
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Mantenimiento de computadoras</li>
+                <li>Camaras de videovigilancia</li>
+                <li>mantenimiento general de equipos de informatica</li>
+            </ol>
+        </section>
+
+                <!-- SECCIÓN: Galería de Imágenes (Corregida con rutas locales) -->
+        <section id="galeria" class="card">
+            <h2>Galería de Imágenes</h2>
+            <p class="section-desc">Muestra visual utilizando selectores avanzados, propiedades de caja y cuadrículas CSS.</p>
+            
+            <div class="gallery-grid">
+                <!-- Imagen 1 -->
+                <figure class="gallery-item">
+                    <img src="imagenes/diseño.jpg" alt="Espacio de trabajo de desarrollo web">
+                    <figcaption>Diseño de Interfaces</figcaption>
+                </figure>
+                
+                <!-- Imagen 2 -->
+                <figure class="gallery-item">
+                    <img src="imagenes/codigo.jpg" alt="Código HTML5 en pantalla">
+                    <figcaption>Estructura Semántica</figcaption>
+                </figure>
+                
+                <!-- Imagen 3 -->
+                <figure class="gallery-item">
+                    <img src="imagenes/estilos.jpg" alt="Hojas de estilo CSS3">
+                    <figcaption>Estilos y Animaciones</figcaption>
+                </figure>
+
+                <!-- Imagen 4 -->
+                <figure class="gallery-item">
+                    <img src="imagenes/movil.jpg" alt="Diseño responsivo en móviles">
+                    <figcaption>Optimización Mobile</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <!-- Sección de Enlaces Externos -->
+        <section id="recursos" class="card">
+            <h2>Enlaces e Información Adicional</h2>
+            <p>Para conocerme con mas detalles sigueme en mis redes sociales</p>
+            <a href="https://www.facebook.com/leninmijail.huancahuirse" target="_blank" class="btn-link">Ir a facebook</a>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="main-footer">
+        <p>&copy; 2026 - Consolidado 1 - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
